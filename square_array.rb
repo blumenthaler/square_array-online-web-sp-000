@@ -1,4 +1,5 @@
 def square_array(array)
-  # your code here
-  # Sqauring: #{number}**2 
+  array.each do |number|
+    number**2 
+  end
 end
